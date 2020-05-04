@@ -67,17 +67,17 @@ USE_POINTS = True
 
 ROOMS = [
     dict(
-        name='econ101',
-        display_name='Econ 101 class',
-        participant_label_file='_rooms/econ101.txt',
+        name='ECON383',
+        display_name='Economics of Discrimination',
+        participant_label_file='~/oTree/383list.txt',
     ),
     dict(name='live_demo', display_name='Room for live demo (no participant labels)'),
 ]
 
 ADMIN_USERNAME = 'admin'
 # for security, best to set admin password in an environment variable
-ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
-# ADMIN_PASSWORD = 'osuotreepass'
+# ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
+ADMIN_PASSWORD = 'osuotreepass'
 
 DEMO_PAGE_INTRO_HTML = """
 Here are some oTree games.
