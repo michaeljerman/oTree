@@ -71,6 +71,11 @@ ROOMS = [
         display_name='Economics of Discrimination',
         participant_label_file='_rooms/383list.txt',
     ),
+    dict(
+        name='ECON420',
+        display_name='Game Theory',
+        participant_label_file='_rooms/420list.txt',
+    ),
     dict(name='live_demo', display_name='Room for live demo (no participant labels)'),
 ]
 
